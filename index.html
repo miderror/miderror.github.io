@@ -5,21 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>miderror</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/icon.ico" type="image/x-icon">
 </head>
 <body>
 <main>
-    <section class="home">
-        <div class="home-img">
-            <img src="images/avatar.svg" alt="avatar">
-        </div>
-        <div class="home-content">
-            <h1>Hi, It's <span>miderror</span></h1>
-            <h3 class="text-animation">I'm <span></span></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet, assumenda dolorem impedit ipsam,
-                magni maiores natus, nesciunt odio officiis porro quaerat quis recusandae reiciendis tenetur ullam vel
-                velit voluptas!</p>
-        </div>
-    </section>
+    <div class="overlay">
+        <section class="home">
+            <div class="home-img">
+                <img src="images/avatar.svg" alt="avatar">
+            </div>
+            <div class="home-content">
+                <h1>Hi, It's <span>miderror</span></h1>
+                <h3 class="text-animation">$ I'm <span></span></h3>
+
+                <div class="cards-container">
+                    <a href="https://github.com/miderror" target="_blank" class="card-hover-container">
+                        <img src="images/github.svg" alt="">
+                        <div class="card-gradient"></div>
+                        <div class="card-bg-characters"></div>
+                    </a>
+                    <a href="https://t.me/miderror" target="_blank" class="card-hover-container">
+                        <img src="images/tg.svg" alt="">
+                        <div class="card-gradient"></div>
+                        <div class="card-bg-characters"></div>
+                    </a>
+                    <a href="https://mesenev.ru" target="_blank" class="card-hover-container">
+                        <img src="images/code.svg" alt="">
+                        <div class="card-gradient"></div>
+                        <div class="card-bg-characters"></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
 </main>
+<script src="js/cardEffects.js"></script>
 </body>
 </html>
